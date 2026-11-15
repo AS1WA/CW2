@@ -134,6 +134,3 @@ On 2026-11-15, a fresh Python 3.11.16 environment installed 107 dependencies. A 
 
 See the validation records for the actual run and numerical diagnostics. Validation covers local Windows, not independently tested macOS / Linux systems or cross-hardware timing guarantees.
 
-组号现已统一为 **Group 5**。本次整理修正了文件名、链接、内核提示和输出路径的显示；代码单元、图表数据及保存的预测保持不变。完整运行证据来自本次整理前的验证，整理后重新核对输入哈希和缓存指标。
-
-Group identifiers now use **Group 5**. This revision updates filenames, links, kernel instructions and displayed paths. Code cells, plotted data and saved predictions are unchanged. Full-run evidence predates this documentation revision; input hashes and cached metrics are checked again afterwards.
