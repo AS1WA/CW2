@@ -14,3 +14,6 @@ This directory records validation of the Chinese portable package, separately fr
 Notebook kernel access to the original integrated project, earlier English portable package and E:\CW2 is blocked during the relocation run. The fresh environment and copied package live in separate directories, with spaces and Chinese characters in the path. The archived notebook and manifest inputs were checked after execution. The later Group 5 naming revision retains all archived cells, portable code cells and numerical results; group5_revision.json records those checks.
 
 本目录是便携入口的独立验证证据。历史数据见 `archive/` 和 `reference/`。全量执行不新增留出集预测；仅核对已有预测并重新计算指标。Windows 的本地验证不能替代 macOS / Linux 或老师电脑上的实际验证，耗时也不能跨硬件保证一致。
+
+- `english_translation.json`: translation alignment, current source hashes, preserved numerical outputs and comment-free English code.
+- `english_portable_execution.json`: fresh English portable execution verification.

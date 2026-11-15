@@ -1,11 +1,13 @@
 {
   "source_notebook": "original/ENG5338_CW2_notebook_GROUP_5_ZH.ipynb",
-  "source_sha256": "935e587a26bf9ca02ca71566b0ebabaf0cea42a671c3107d8b8c264d345391b7",
-  "source_base_run": "base/results/20261114_140859_087181",
-  "source_supplement_run": "supplement/results/20261114_141215_993580",
+  "source_sha256": "e67495634504ef424e6dda3f12fdeab2c2c6a528fc777b2cb1f3e0563efab0e3",
+  "source_base_run": "base/results/20261115_140342_461965",
+  "source_supplement_run": "supplement/results/20261115_140733_507021",
   "holdout_prediction_record": "final_test/test_predictions.csv",
   "holdout_independent_external_test": false,
   "no_normal_steel_class": true,
-  "supplied_notebook_sha256": "85201d70bf2c588ce2d534d9659e49ff2fbd49783a2fd78afd5dd7228ae3093e",
-  "group": 5
+  "supplied_notebook_sha256": "a32f9f42e5d9d17b68c76b8f97796ebe1fa69defc25f0b5272f2b6644bccb122",
+  "group": 5,
+  "english_notebook": "original/ENG5338_CW2_notebook_GROUP_5_EN.ipynb",
+  "english_sha256": "e4d67e3556a66c7b7ba3b780d632ae9cacaea4094a33ce60f68d196f99ef0ec7"
 }

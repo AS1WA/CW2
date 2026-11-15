@@ -1,0 +1,7 @@
+{
+  "cv_scores_match_historical": true,
+  "support_vectors_match": true,
+  "dual_coefficients_match": true,
+  "frozen_model_used_for_holdout_cache": true,
+  "historical_decision_preserved": true
+}

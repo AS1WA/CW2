@@ -1,0 +1,25 @@
+{
+  "fresh_kernel": true,
+  "code_cells": 22,
+  "errors": 0,
+  "elapsed_seconds": 311.9468635000012,
+  "original_project_reads_blocked": true,
+  "package_inputs_verified_after_execution": 23,
+  "cached_holdout_metrics": {
+    "accuracy": 0.7480719794344473,
+    "macro_f1": 0.7817135463992829,
+    "pastry_recall": 0.5625,
+    "prediction_calls": 0,
+    "all_class_recall_target_met": false
+  },
+  "language": "EN",
+  "source_translation_verified": true,
+  "plots": 14,
+  "code_comments": 0,
+  "source_chinese_unchanged": true,
+  "source_chinese_sha256": "a32f9f42e5d9d17b68c76b8f97796ebe1fa69defc25f0b5272f2b6644bccb122",
+  "local_english_sha256": "1faba03aad276be7880b5fbc98f836ac53f94d55f82c4b13d2d514509c0d493b",
+  "immutable_inputs_verified": 23,
+  "fresh_dependency_environment_from_prior_validation": true,
+  "english_runtime_text_verified": true
+}

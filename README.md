@@ -1,8 +1,12 @@
 # ENG5338 CW2 · Group 5 — 钢板缺陷分类 / Steel Plates Fault Classification
 
-第 5 组的实验代码与复现材料，包括数据集、冻结 SVM、历史结果和依赖配置。中文版参考文件位于 [`original/ENG5338_CW2_notebook_GROUP_5_ZH.ipynb`](original/ENG5338_CW2_notebook_GROUP_5_ZH.ipynb)，仅统一组号标识，代码单元及结果保留原样；运行请使用根目录的 [`ENG5338_CW2_notebook_GROUP_5_ZH_PORTABLE.ipynb`](ENG5338_CW2_notebook_GROUP_5_ZH_PORTABLE.ipynb)。
+第 5 组的实验代码与复现材料，包括中英文 notebook、数据集、冻结 SVM、历史结果和依赖配置。中文版参考文件位于 [`original/ENG5338_CW2_notebook_GROUP_5_ZH.ipynb`](original/ENG5338_CW2_notebook_GROUP_5_ZH.ipynb)，仅统一组号标识，代码单元及结果保留原样；运行请使用根目录的 [`ENG5338_CW2_notebook_GROUP_5_ZH_PORTABLE.ipynb`](ENG5338_CW2_notebook_GROUP_5_ZH_PORTABLE.ipynb)。
 
-Group 5 coursework code and reproduction materials, including the dataset, frozen model, recorded results and pinned dependencies. Run the portable Chinese notebook at the repository root. The reference notebook in original/ has group identifiers updated in metadata; its cells and results are unchanged.
+Group 5 coursework code and reproduction materials, including Chinese and English notebooks, the dataset, frozen model, recorded results and pinned dependencies. Run the portable Chinese notebook at the repository root. The reference notebook in original/ has group identifiers updated in metadata; its cells and results are unchanged.
+
+英文参考文件：[`original/ENG5338_CW2_notebook_GROUP_5_EN.ipynb`](original/ENG5338_CW2_notebook_GROUP_5_EN.ipynb)。英文便携入口：[`ENG5338_CW2_notebook_GROUP_5_EN_PORTABLE.ipynb`](ENG5338_CW2_notebook_GROUP_5_EN_PORTABLE.ipynb)。
+
+English reference and portable notebooks are linked above.
 
 ## 1. 下载 / Download
 
@@ -52,9 +56,15 @@ For Chinese plot labels, install Microsoft YaHei or Noto Sans CJK. A missing CJK
 python run_portable.py
 ```
 
+运行英文版 / Run in English:
+
+```bash
+python run_english.py
+```
+
 运行器用当前 Python 启动新内核，依次执行全部 22 个代码单元，并导出 notebook 和 HTML。需要几分钟，实际耗时取决于硬件与负载。不要同时运行多个完整实验。
 
-The runner starts a fresh kernel with the current interpreter, executes all 22 code cells and exports an executed notebook and HTML. Allow several minutes. Avoid concurrent full runs.
+Both runners start a fresh kernel with the current interpreter, execute all 22 code cells and export an executed notebook and HTML. Allow several minutes. Avoid concurrent full runs.
 
 交互运行 / Interactive use:
 
@@ -62,6 +72,10 @@ The runner starts a fresh kernel with the current interpreter, executes all 22 c
 python -m ipykernel install --user --name cw2-portable --display-name "CW2 portable"
 python -m jupyterlab ENG5338_CW2_notebook_GROUP_5_ZH_PORTABLE.ipynb
 ```
+
+英文版使用 `python -m jupyterlab ENG5338_CW2_notebook_GROUP_5_EN_PORTABLE.ipynb`；内核相同。
+
+For English, open `ENG5338_CW2_notebook_GROUP_5_EN_PORTABLE.ipynb` with the same kernel.
 
 选择 **CW2 portable**，重启内核并运行全部单元。也可在 VS Code 选择该 Python 环境。请从仓库根目录启动 JupyterLab。
 
@@ -92,7 +106,7 @@ Pastry recall fails the 0.60 target. This remains a development candidate, not a
 
 | 路径 / Path | 用途 / Purpose |
 |---|---|
-| `original/` | 中文版参考文件，保留原有代码和结果 / Reference notebook; original code and results |
+| `original/` | 中英文参考文件 / Chinese source and English translation |
 | `data/steel-plates-faults.csv` | 原 CSV；1,941 行，27 个特征，7 类缺陷 / Original dataset |
 | `archive/` | 冻结模型和历史选型、计时证据 / Frozen model and historical evidence |
 | `final_test/` | 原始留出集预测和指标，运行时不覆盖 / Immutable holdout record |
@@ -134,3 +148,7 @@ On 2026-11-15, a fresh Python 3.11.16 environment installed 107 dependencies. A 
 
 See the validation records for the actual run and numerical diagnostics. Validation covers local Windows, not independently tested macOS / Linux systems or cross-hardware timing guarantees.
 
+
+英文便携入口已在同一独立环境中完成新内核验证：22 个代码单元、0 错误、14 张图，23 项输入校验通过。参考英文文件保留中文版已有数值；便携入口展示本次独立重跑的结果。
+
+The English portable entry passed a fresh-kernel run in the same independent environment: 22 code cells, zero errors, 14 figures and 23 verified inputs. The reference translation retains the Chinese source values; the portable notebook displays its separate reproduction run.
