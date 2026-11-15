@@ -1,0 +1,20 @@
+{
+  "group": 5,
+  "archived_notebook_cells_unchanged": true,
+  "portable_code_cells_unchanged": true,
+  "portable_numerical_outputs_and_images_unchanged": true,
+  "ai_usage_statement_unchanged": true,
+  "displayed_output_paths_are_relative": true,
+  "full_training_rerun": false,
+  "immutable_inputs_verified": 22,
+  "cached_holdout_metrics": {
+    "accuracy": 0.7480719794344473,
+    "macro_f1": 0.7817135463992829,
+    "pastry_recall": 0.5625,
+    "prediction_calls": 0,
+    "all_class_recall_target_met": false
+  },
+  "supplied_notebook_sha256": "85201d70bf2c588ce2d534d9659e49ff2fbd49783a2fd78afd5dd7228ae3093e",
+  "archived_notebook_sha256": "935e587a26bf9ca02ca71566b0ebabaf0cea42a671c3107d8b8c264d345391b7",
+  "readme_local_links_resolve": true
+}

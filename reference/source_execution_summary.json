@@ -1,9 +1,11 @@
 {
-  "source_notebook": "original/ENG5338_CW2_notebook_GROUP_ID_ZH.ipynb",
-  "source_sha256": "85201d70bf2c588ce2d534d9659e49ff2fbd49783a2fd78afd5dd7228ae3093e",
+  "source_notebook": "original/ENG5338_CW2_notebook_GROUP_5_ZH.ipynb",
+  "source_sha256": "935e587a26bf9ca02ca71566b0ebabaf0cea42a671c3107d8b8c264d345391b7",
   "source_base_run": "base/results/20261114_140859_087181",
   "source_supplement_run": "supplement/results/20261114_141215_993580",
   "holdout_prediction_record": "final_test/test_predictions.csv",
   "holdout_independent_external_test": false,
-  "no_normal_steel_class": true
+  "no_normal_steel_class": true,
+  "supplied_notebook_sha256": "85201d70bf2c588ce2d534d9659e49ff2fbd49783a2fd78afd5dd7228ae3093e",
+  "group": 5
 }

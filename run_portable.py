@@ -9,7 +9,7 @@ import tempfile
 import time
 
 ROOT = Path(__file__).resolve().parent
-NOTEBOOK = ROOT/'ENG5338_CW2_notebook_GROUP_ID_ZH_PORTABLE.ipynb'
+NOTEBOOK = ROOT/'ENG5338_CW2_notebook_GROUP_5_ZH_PORTABLE.ipynb'
 
 
 def main():
