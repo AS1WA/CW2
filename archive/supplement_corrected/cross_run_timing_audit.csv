@@ -1,0 +1,9 @@
+﻿run,family,params,rounds_passed,total_rounds,worst_round_p95_ms,is_current_corrected_run
+20261104_153815_292759,SVM,"{""C"": 33.33333333333333, ""class_weight"": ""balanced"", ""gamma"": 0.03, ""kernel"": ""rbf""}",5,5,5.054620000009891,False
+20261104_153815_292759,LogisticRegression,"{""C"": 100.0, ""class_weight"": null}",5,5,0.5823400024382862,False
+20261104_153815_292759,RandomForest,"{""class_weight"": ""balanced"", ""max_depth"": null, ""min_samples_leaf"": 5.0}",5,5,17.048694990808144,False
+20261104_153815_292759,HistGradientBoosting,"{""class_weight"": ""balanced"", ""learning_rate"": 0.05, ""max_leaf_nodes"": 7.0}",3,5,23.56324499269249,False
+20261104_154236_767611,SVM,"{""C"": 33.33333333333333, ""class_weight"": ""balanced"", ""gamma"": 0.03, ""kernel"": ""rbf""}",5,5,8.12232999742264,True
+20261104_154236_767611,LogisticRegression,"{""C"": 100.0, ""class_weight"": null}",5,5,1.3342449892661532,True
+20261104_154236_767611,RandomForest,"{""class_weight"": ""balanced"", ""max_depth"": null, ""min_samples_leaf"": 5.0}",5,5,15.850499995576683,True
+20261104_154236_767611,HistGradientBoosting,"{""class_weight"": ""balanced"", ""learning_rate"": 0.05, ""max_leaf_nodes"": 7.0}",5,5,18.54645499624894,True

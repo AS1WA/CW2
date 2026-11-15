@@ -1,0 +1,42 @@
+{
+  "family": "SVM",
+  "model_name": "RBF SVM",
+  "candidate_id": "SVM_049",
+  "params": {
+    "C": 33.33333333333333,
+    "class_weight": "balanced",
+    "gamma": 0.03,
+    "kernel": "rbf"
+  },
+  "decision_type": "post_hoc_engineering_recommendation",
+  "status": "RBF_SVM_final_engineering_choice_development_evidence_only",
+  "decision_basis": "User-approved conservative engineering judgement using both completed timing runs; not the original automatic five-round rule.",
+  "automatic_rule_winner": "HistGradientBoosting",
+  "automatic_record": "algorithmic_recommendation.json",
+  "constraints_unchanged": {
+    "min_class_oof_recall": 0.6,
+    "100_row_prediction_p95_limit_ms": 20
+  },
+  "validation_macro_f1": 0.7740939833166585,
+  "validation_macro_f1_std": 0.0168834514748268,
+  "oof_min_class_recall": 0.6133828996282528,
+  "current_run_worst_round_p95_ms": 8.12232999742264,
+  "timing_evidence": [
+    {
+      "family": "SVM",
+      "rounds_passed": 10,
+      "rounds_measured": 10,
+      "worst_observed_round_p95_ms": 8.12232999742264
+    },
+    {
+      "family": "HistGradientBoosting",
+      "rounds_passed": 8,
+      "rounds_measured": 10,
+      "worst_observed_round_p95_ms": 23.56324499269249
+    }
+  ],
+  "test_evaluations": 0,
+  "independent_test_performance": "not_estimated",
+  "deployment_guarantee": false,
+  "finalized_at_utc": "2026-11-04T16:03:03.718075+00:00"
+}

@@ -1,0 +1,9 @@
+{
+  "cv_reproduced": true,
+  "original_candidates": 48,
+  "svm_complete": 53,
+  "svm_failed": 6,
+  "fixed_model_matches_reproduction": true,
+  "historical_decision_preserved": true,
+  "holdout_predictions_so_far": 0
+}

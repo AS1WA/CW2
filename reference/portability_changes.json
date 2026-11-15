@@ -1,0 +1,44 @@
+{
+  "source_sha256": "85201d70bf2c588ce2d534d9659e49ff2fbd49783a2fd78afd5dd7228ae3093e",
+  "changed_cells_one_based": [
+    1,
+    2,
+    4,
+    20,
+    23,
+    24,
+    26,
+    37,
+    38,
+    39,
+    40,
+    42
+  ],
+  "unchanged_code_cells_one_based": [
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    17,
+    18,
+    22,
+    28,
+    30,
+    32,
+    34,
+    36
+  ],
+  "adaptations": [
+    "relative input audit instead of external absolute-path audit",
+    "pinned Python packages and current-interpreter kernel",
+    "font availability fallback",
+    "fixed reference lookup by parameters",
+    "explicit floating-point drift diagnostics",
+    "read-only holdout replay"
+  ],
+  "original_notebook_byte_identical": true,
+  "source_environment_python": "3.11.16 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:36:16) [MSC v.1942 64 bit (AMD64)]",
+  "original_environment_freeze_is_reference_only": true
+}

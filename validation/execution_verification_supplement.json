@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "development_rows_match_original": true,
+    "no_holdout_rows_in_development": true,
+    "both_kernels_compared": true,
+    "every_candidate_accounted": true,
+    "complete_candidates_have_five_folds": true,
+    "every_oof_row_once": true,
+    "all_four_families_compared": true,
+    "each_timed_candidate_has_500_calls": true,
+    "seven_class_curve_metrics": true,
+    "importance_records_complete": true,
+    "svm_learning_fits_complete": true,
+    "test_predictions_not_written": true
+  },
+  "passed": 12,
+  "total": 12,
+  "test_evaluations": 0
+}

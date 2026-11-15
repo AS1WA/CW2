@@ -1,0 +1,21 @@
+{
+  "fresh_kernel": true,
+  "code_cells": 22,
+  "errors": 0,
+  "elapsed_seconds": 376.33062880000216,
+  "original_project_reads_blocked": true,
+  "package_inputs_verified_after_execution": 22,
+  "cached_holdout_metrics": {
+    "accuracy": 0.7480719794344473,
+    "macro_f1": 0.7817135463992829,
+    "pastry_recall": 0.5625,
+    "prediction_calls": 0,
+    "all_class_recall_target_met": false
+  },
+  "source_original_sha256": "85201d70bf2c588ce2d534d9659e49ff2fbd49783a2fd78afd5dd7228ae3093e",
+  "source_original_byte_identical": true,
+  "changed_csv_rejected": true,
+  "cross_machine_timing_guarantee": false,
+  "validation_platform": "Windows",
+  "tested_in_relocated_path_with_spaces": true
+}

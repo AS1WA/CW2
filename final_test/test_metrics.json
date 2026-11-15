@@ -1,0 +1,24 @@
+{
+  "family": "SVM",
+  "params": {
+    "kernel": "rbf",
+    "C": 33.33333333333333,
+    "gamma": 0.03,
+    "class_weight": "balanced"
+  },
+  "model_sha256": "5673d3c6d259085c8546e5f0030ee69513ba5bc6d52e93f607695844b3300f72",
+  "dataset_sha256": "9e9bfebd2ea8bf84f5264325fadace2194387991183cb20d52075ef72e2c858e",
+  "test_row_ids_sha256": "610d3311372da8e34bea0663ad1b54c7092101c902af8365e7cd05b54238f3f0",
+  "predictions_sha256": "b99a084a59cd1ef09783a34625ae5d2119a5c5cc354a73a0c22ad7c5108f15dc",
+  "test_evaluation_count": 1,
+  "evaluated_at_utc": "2026-11-14T14:14:20.775991+00:00",
+  "holdout_previously_used_in_cw1": true,
+  "holdout_previously_used_in_original_cw2": true,
+  "independent_external_test": false,
+  "retuned_after_test": false,
+  "rows": 389,
+  "test_accuracy": 0.7480719794344473,
+  "test_macro_f1": 0.7817135463992829,
+  "test_min_class_recall": 0.5625,
+  "test_recall_constraint_pass": false
+}

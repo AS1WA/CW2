@@ -1,0 +1,18 @@
+{
+  "family": "SVM",
+  "params": {
+    "kernel": "rbf",
+    "C": 33.33333333333333,
+    "gamma": 0.03,
+    "class_weight": "balanced"
+  },
+  "model_sha256": "5673d3c6d259085c8546e5f0030ee69513ba5bc6d52e93f607695844b3300f72",
+  "decision_source": "archive/supplement_corrected/final_engineering_recommendation.json",
+  "fixed_before_this_holdout_evaluation": true,
+  "historical_holdout_exposure": [
+    "CW1",
+    "original CW2 HGB"
+  ],
+  "test_metrics_used_for_this_decision": false,
+  "frozen_at_utc": "2026-11-14T14:08:46.763783+00:00"
+}

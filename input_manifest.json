@@ -1,0 +1,27 @@
+{
+  "format_version": 1,
+  "files": {
+    "archive/frozen_RBF_SVM.joblib": "5673d3c6d259085c8546e5f0030ee69513ba5bc6d52e93f607695844b3300f72",
+    "archive/supplement_corrected/algorithmic_recommendation.json": "790b406a491c1f2c4e86f8e384a9d30f22a92c0ee3bce677d50b9954fd147ece",
+    "archive/supplement_corrected/cross_run_timing_audit.csv": "8b2d68cc66b472819dfc17e88b06d8e0dff262692ec16c6d275aebde1b3f7a97",
+    "archive/supplement_corrected/final_engineering_recommendation.json": "8bf9e2c80f2cbc3cd15b8397b193e53d34b8d734dfdd64595fcbd49eb39bf54a",
+    "archive/supplement_corrected/updated_model_comparison.csv": "932cb1d15173e9438a82e222565c4d5e94aab9175cbb57a19164bc694d358157",
+    "data/steel-plates-faults.csv": "9e9bfebd2ea8bf84f5264325fadace2194387991183cb20d52075ef72e2c858e",
+    "final_test/PREDICTION_STARTED.json": "c4d7d4b7b98350723d31c99f226db1f0bd4f67a93720d053220c119417d177a0",
+    "final_test/svm_test_confusion_matrix.png": "2f7938d22b2a14e6b992bd3fa502890a5e950a40101181b3440bd451c150b281",
+    "final_test/test_classification_report.csv": "ba419b3c1c8b72cbf8a711e20c1cd64687b12ac74e9876e4b88f271fa3c05c72",
+    "final_test/test_confusion_matrix.csv": "47201bcccdb0e7854b3666de24eab5717dabb012759ba0c5a19405b1c9cdd6ab",
+    "final_test/test_metrics.json": "7d13a74f6b3cb0ffbedca7e7dfe486b6741251ced4c65d0f87273eaffd425abf",
+    "final_test/test_predictions.csv": "b99a084a59cd1ef09783a34625ae5d2119a5c5cc354a73a0c22ad7c5108f15dc",
+    "fixed_reference_params.json": "5ad07f9b9aebe46c84c8cda5cf6d9c91c24a924c65e47cdefd0c665961ed0601",
+    "frozen_decision.json": "fae39081d3ed741f8ddd276d34e83dd9705de88a657c83794ee900b85e9b0f24",
+    "original/ENG5338_CW2_notebook_GROUP_ID_ZH.ipynb": "85201d70bf2c588ce2d534d9659e49ff2fbd49783a2fd78afd5dd7228ae3093e",
+    "reference/original-environment-freeze.txt": "555ed2141ac6097e2916c2b07417f1a660227d25f0b79a89aafa73ac48c307b4",
+    "reference/portability_changes.json": "b8008808c2a31298ee59d8107f1a7b29e5b1ba73c81e4009ba76df7a370c04b5",
+    "reference/source_execution_summary.json": "cea0817788661ae090ae993a991731aa1e031c674a19b27e6c3dff1b6736d0db",
+    "reference/svm_curve_summary.csv": "09d6becf645cf46d912d71143c8a71e51ea688416a6260118501521fe6d34e09",
+    "reference/updated_model_comparison.csv": "cbf213526ff47761d68189904165301e2b5f95accb350fb5e0d2121e908b9fcb",
+    "reference/updated_resource_comparison.csv": "d2963839d93b04f47bfd10d29a9a561b3b86c4eeb9c0fb691f1411a01f802a8b",
+    "runtime_versions.json": "69248aa15c4cc838da8a04ee14f37d293079f96a309b216686cab1dcaf20cf21"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "family": "HistGradientBoosting",
+  "candidate_id": "HistGradientBoosting_07",
+  "params": {
+    "class_weight": "balanced",
+    "learning_rate": 0.05,
+    "max_leaf_nodes": 7
+  },
+  "status": "stable_development_constraints_met",
+  "validation_macro_f1": 0.8043050620219375,
+  "worst_round_p95_ms": 18.54645499624894,
+  "test_evaluations": 0,
+  "independent_test_performance": "not_estimated",
+  "locked_at_utc": "2026-11-04T15:43:56.016626+00:00"
+}
