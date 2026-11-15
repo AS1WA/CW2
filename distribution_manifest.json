@@ -1,11 +1,11 @@
 {
   "format_version": 1,
-  "created_at_utc": "2026-11-15T18:15:53.912966+00:00",
+  "created_at_utc": "2026-11-15T18:24:55.950507+00:00",
   "repository": "https://github.com/AS1WA/CW2",
   "group": 5,
   "languages": [
-    "ZH",
-    "EN"
+    "EN",
+    "ZH"
   ],
   "files": {
     ".gitignore": {
@@ -124,9 +124,9 @@
       "bytes": 2668
     },
     "README.md": {
-      "sha256": "ea279b25daae7ce115362b780bce2697e840ef256cd446ece9d72e1ce983616e",
-      "git_blob_sha1": "446583a24b6bac283c76ce3766d03755d873c747",
-      "bytes": 10578
+      "sha256": "028b6c9583b3bffc7eddee098dcf1628bbc6e6021378e3d2931e2639b9e81b83",
+      "git_blob_sha1": "5f8060ab40f572e9666197898f3975e6fa8a00d0",
+      "bytes": 5883
     },
     "reference/original-environment-freeze.txt": {
       "sha256": "555ed2141ac6097e2916c2b07417f1a660227d25f0b79a89aafa73ac48c307b4",
@@ -179,9 +179,9 @@
       "bytes": 5063
     },
     "run_portable.py": {
-      "sha256": "2e1e89dc4be4867eee88c59493c462a7da57161756668b47c5a9b2e594deeaff",
-      "git_blob_sha1": "73e22ad96fba539a0c0a5379b996522436139c4f",
-      "bytes": 5145
+      "sha256": "43a99f654b58dcd137c1e46041c43445f0e078cd1ab24951406a964876459dae",
+      "git_blob_sha1": "338eefd119387ba204efb99c0af0046f925bab9b",
+      "bytes": 5063
     },
     "runtime_versions.json": {
       "sha256": "69248aa15c4cc838da8a04ee14f37d293079f96a309b216686cab1dcaf20cf21",
@@ -292,6 +292,13 @@
       "sha256": "2416914328e57ea930e7d0d40dfa0e10e787f51e87a86521de4cd2784d8d58be",
       "git_blob_sha1": "46e60d14da7f34cfbe0e5dfcebcc249940cdc5fa",
       "bytes": 521
+    },
+    "run_chinese.py": {
+      "sha256": "75942e0bad1689281d391c42108e76fadf713577efaf4ac152785adc3da8aa25",
+      "git_blob_sha1": "92f02dc03af3f563b8592dc96fd45d2a231e4dc5",
+      "bytes": 5063
     }
-  }
+  },
+  "default_language": "EN",
+  "default_notebook": "ENG5338_CW2_notebook_GROUP_5_EN_PORTABLE.ipynb"
 }
