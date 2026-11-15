@@ -1,6 +1,6 @@
 # ENG5338 CW2 — 钢板缺陷分类 / Steel Plates Fault Classification
 
-供老师复现小组实验的完整仓库：原中文版 notebook、中文便携入口、原数据集、冻结 SVM、历史结果和固定版本环境。原文件位于 [`original/ENG5338_CW2_notebook_GROUP_ID_ZH.ipynb`](original/ENG5338_CW2_notebook_GROUP_ID_ZH.ipynb)，按原始字节保留；运行请使用根目录的 [`ENG5338_CW2_notebook_GROUP_ID_ZH_PORTABLE.ipynb`](ENG5338_CW2_notebook_GROUP_ID_ZH_PORTABLE.ipynb)。
+供老师复现小组实验的完整仓库：原中文版 notebook、中文便携入口、原数据集、冻结 SVM、历史结果和固定版本环境。原文件位于 [`original/ENG5338_CW2_notebook_GROUP_ID_ZH.ipynb`](original/ENG5338_CW2_notebook_GROUP_ID_ZH.ipynb)，按原始字节保留；运行请使用根目录的 [`ENG5338_CW2_notebook_GROUP_ID_ZH_PORTABLE.ipynb`](ENG5338_CW2_notebook_GROUP_5_ZH_PORTABLE.ipynb)。
 
 This repository contains the original Chinese notebook and a separate portable Chinese entry point, together with the dataset, frozen model, historical evidence and pinned dependencies. Use the root portable notebook to reproduce the experiment. The original is a byte-preserved reference.
 
